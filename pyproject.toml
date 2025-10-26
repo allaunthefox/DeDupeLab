@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deduplab"
+version = "5.4.0"
+description = "Autonomous caretaker for library deduplication and normalization."
+readme = "MANUAL.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Allaun" }]
+
+[project.scripts]
+deduplab = "deduplab.cli:main"
