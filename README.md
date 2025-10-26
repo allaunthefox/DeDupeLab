@@ -94,28 +94,54 @@ python3 -m dedupelab.cli scan --root /path/to/data
 The `scan` command walks through the specified directory, computes SHA-256
 hashes, and generates validated metadata.
 
+#### Android (Termux)
 ```
-dedupelab scan --root /path/to/data
+python dedupelab/cli.py scan --root /storage/emulated/0/Documents
 ```
+
+#### Windows (PowerShell)
+```
+python dedupelab\cli.py scan --root "C:\Users\<name>\Documents"
+```
+
+#### Linux (Bash)
+```
+python3 -m dedupelab.cli scan --root /home/<name>/Documents
+```
+
+#### macOS (zsh)
+```
+python3 -m dedupelab.cli scan --root ~/Documents
+```
+
+---
 
 ### Validation
 
 To check all generated metadata:
 
+#### Android (Termux)
 ```
-dedupelab validate --root /path/to/data
+python dedupelab/cli.py validate --root /storage/emulated/0/Documents
 ```
 
-Each `meta.json` file is tested against the internal schema.
-Any inconsistencies are reported during the run.
-
-### Rebuilding
-
-To rebuild a database from existing manifests:
-
+#### Windows (PowerShell)
 ```
-dedupelab rebuild --root /path/to/data
+python dedupelab\cli.py validate --root "C:\Users\<name>\Documents"
 ```
+
+#### Linux (Bash)
+```
+python3 -m dedupelab.cli validate --root /home/<name>/Documents
+```
+
+#### macOS (zsh)
+```
+python3 -m dedupelab.cli validate --root ~/Documents
+```
+
+Each `meta.json` file is tested against the internal schema, and any
+inconsistencies are reported during the run.
 
 ---
 
