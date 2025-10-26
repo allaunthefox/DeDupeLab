@@ -27,14 +27,14 @@ machine-readable indefinitely.
 
 **Contextual hashing**
 
-Dedupelab uses SHA-256 as its single hashing algorithm.  
+Dedupelab uses SHA-256 as its single hashing algorithm.
 Each file also carries a `context_tag` field that distinguishes archived from
-unarchived copies.  
+unarchived copies.
 This prevents extracted files from being merged with their compressed forms.
 
 **Automatic metadata generation**
 
-Each folder gains a validated `meta.json` listing all files.  
+Each folder gains a validated `meta.json` listing all files.
 The manifest summarizes totals, categories, and topics in a compact structure.
 
 **Self-validation**
@@ -45,12 +45,12 @@ If validation fails, the manifest is saved as `meta.invalid.json` for review.
 **Acceleration when available**
 
 If libraries such as cuDF or pandas are available, Dedupelab will use them for
-faster processing.  
+faster processing.
 If not, it runs entirely in pure Python with the same output.
 
 **Offline operation**
 
-All schema references are local (`file://./`).  
+All schema references are local (`file://./`).
 No external services or online validation are ever required.
 
 ---
@@ -62,6 +62,7 @@ Extract the release archive into any directory.
 Example layout:
 
 ```
+
 dedupelab/
  ├── accelerator.py
  ├── cli.py
@@ -74,16 +75,49 @@ dedupelab/
  ├── MANUAL.md
  ├── LICENSE
  └── README.md
+
 ```
 
 Dedupelab runs directly from its folder using the system’s Python interpreter.
+
 No installation or package manager is required.
 
-Example:
+### Running from the command line
+
+#### Android (Termux)
 
 ```
-python3 -m dedupelab.cli scan --root /path/to/data
+
+python dedupelab/cli.py scan --root /storage/emulated/0/Documents
+
 ```
+
+#### Windows (PowerShell)
+
+```
+
+python dedupelab\cli.py scan --root "C:\Users\<name>\Documents"
+
+```
+
+#### Linux (Bash)
+
+```
+
+python3 -m dedupelab.cli scan --root /home/<name>/Documents
+
+```
+
+#### macOS (zsh)
+
+```
+
+python3 -m dedupelab.cli scan --root ~/Documents
+
+```
+
+These examples show the same command structure on each platform.
+You can substitute any directory for `/path/to/data` or its local equivalent.
 
 ---
 
@@ -95,23 +129,35 @@ The `scan` command walks through the specified directory, computes SHA-256
 hashes, and generates validated metadata.
 
 #### Android (Termux)
+
 ```
+
 python dedupelab/cli.py scan --root /storage/emulated/0/Documents
+
 ```
 
 #### Windows (PowerShell)
+
 ```
+
 python dedupelab\cli.py scan --root "C:\Users\<name>\Documents"
+
 ```
 
 #### Linux (Bash)
+
 ```
+
 python3 -m dedupelab.cli scan --root /home/<name>/Documents
+
 ```
 
 #### macOS (zsh)
+
 ```
+
 python3 -m dedupelab.cli scan --root ~/Documents
+
 ```
 
 ---
@@ -121,23 +167,35 @@ python3 -m dedupelab.cli scan --root ~/Documents
 To check all generated metadata:
 
 #### Android (Termux)
+
 ```
+
 python dedupelab/cli.py validate --root /storage/emulated/0/Documents
+
 ```
 
 #### Windows (PowerShell)
+
 ```
+
 python dedupelab\cli.py validate --root "C:\Users\<name>\Documents"
+
 ```
 
 #### Linux (Bash)
+
 ```
+
 python3 -m dedupelab.cli validate --root /home/<name>/Documents
+
 ```
 
 #### macOS (zsh)
+
 ```
+
 python3 -m dedupelab.cli validate --root ~/Documents
+
 ```
 
 Each `meta.json` file is tested against the internal schema, and any
@@ -163,6 +221,7 @@ Example entry:
   "topic": "beach",
   "context_tag": "unarchived"
 }
+
 ```
 
 Each manifest also includes a summary block that records totals, categories,
@@ -189,8 +248,10 @@ Dedupelab is distributed under the Apache License 2.0.
 All Python modules include SPDX headers for attribution and license clarity.
 
 ```
+
 SPDX-License-Identifier: Apache-2.0
 Copyright (c) 2025 Allaun
+
 ```
 
 See the `LICENSE` file at the repository root for full terms.
