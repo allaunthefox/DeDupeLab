@@ -1,4 +1,4 @@
-# 🧩 Deduplab v6.3 — Contextual Hashing Edition
+# 🧩 Dedupelab v6.3 — Contextual Hashing Edition
 
 **Autonomous file cataloging and deduplication for long-term data survival.**
 Deduplab scans entire drives or archives, generates self-describing `meta.json`
