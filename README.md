@@ -1,5 +1,8 @@
 # Dedupelab
 
+Important! Dedupelab was written by a combination of LLMs and should not be used on production unless you are ok with possible issues. It works for me, might not work for you. Might delete everything.
+
+
 Dedupelab is a self-contained system for cataloging and deduplicating files.
 
 It generates self-describing `meta.json` manifests for every folder so that
