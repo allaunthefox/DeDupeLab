@@ -1,0 +1,43 @@
+2025/11/14 00:34:52 INFO  : Using md5 for hash comparisons
+2025/11/14 00:35:52 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               383 / 383, 100%, Listed 3722
+Elapsed time:       1m0.0s
+
+2025/11/14 00:36:52 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              1041 / 1041, 100%, Listed 6401
+Elapsed time:       2m0.0s
+
+2025/11/14 00:37:52 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              1441 / 1441, 100%, Listed 8288
+Elapsed time:       3m0.0s
+
+2025/11/14 00:38:52 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              1980 / 1980, 100%, Listed 10586
+Elapsed time:       4m0.0s
+
+2025/11/14 00:39:52 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2511 / 2511, 100%, Listed 12871
+Elapsed time:       5m0.0s
+
+2025/11/14 00:40:52 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3058 / 3058, 100%, Listed 15253
+Elapsed time:       6m0.0s
+
+2025/11/14 00:41:52 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3722 / 3722, 100%, Listed 18148
+Elapsed time:       7m0.0s
+
+2025/11/14 00:42:12 NOTICE: Local file system at /home/allaun/gdrive_local: 0 differences found
+2025/11/14 00:42:12 NOTICE: Local file system at /home/allaun/gdrive_local: 5096 matching files
+2025/11/14 00:42:12 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              5096 / 5096, 100%, Listed 22366
+Elapsed time:      7m20.0s
+

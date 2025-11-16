@@ -1,0 +1,91 @@
+# Shell history scan
+# Source: /home/allaun/.zhistory
+# Captured: Sun Nov 16 2025 (UTC)
+
+-- BEGIN HISTORY --
+sudo pacman -Syu
+sudo pacman -Syu brave-browser
+sudo pacman -Syu flatpak
+flatpak update
+flatpak sync
+flatpak --help
+flatpak install telegram-desktop
+flatpak remove telegram
+flatpak install telegram
+pamac build visual-studio-code-bin
+uname -a && lsb_release -a && lscpu && free -h && df -h && lspci && lsusb
+lsusb | grep -i bluetooth; lspci | grep -i bluetooth; rfkill list; systemctl status bluetooth
+code --install-shell-command && echo 'if [ -n "$VSCODE_SHELL_INTEGRATION" ]; then source "$VSCODE_SHELL_INTEGRATION"; fi' >> ~/.zshrc && source ~/.zshrc
+uname -a && lsb_release -a && cat /etc/os-release
+lscpu && free -h && lsblk && df -h
+ip addr && ip route && nmcli device status
+ps aux --sort=-%mem | head -20
+systemctl list-units --type=service --state=running
+env | sort
+pacman -Qe --color never | head -40
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
+bash ~/miniconda.sh -b -p $HOME/miniconda3
+echo 'export PATH="$HOME/miniconda3/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
+conda --version
+lspci -nnk && lsusb && lscpu | grep 'Model name' && uname -r
+pacman -Ss firmware | grep installed
+pacman -Qm | grep firmware
+systemctl status bluetooth.service
+rfkill list bluetooth
+pacman -S --noconfirm bluez-utils
+sudo pacman -S --noconfirm bluez-utils
+lsusb | grep -i bluetooth; dmesg | grep -i bluetooth | tail -20
+lsusb | grep -i bluetooth
+lspci -nnk | grep -i bluetooth
+lsmod | grep -i btusb
+pacman -F hciconfig
+sudo pacman -S --noconfirm bluez-deprecated-tools
+hciconfig -a
+ls /lib/firmware/mediatek | grep -i 7925
+ls /lib/firmware/mediatek/mt7925*
+ls /lib/firmware/mediatek/ | grep -i bt
+ls /lib/firmware/mediatek/ | grep -i 7925
+ls /lib/firmware/mediatek/mt7925/* | grep -i bt
+sudo cp /lib/firmware/mediatek/mt7925/BT_RAM_CODE_MT7925_1_1_hdr.bin.xz /lib/firmware/mediatek/BT_RAM_CODE_MT7925_1_1_hdr.bin.xz && sudo unxz /lib/firmware/mediatek/BT_RAM_CODE_MT7925_1_1_hdr.bin.xz
+sudo modprobe -r btusb && sudo modprobe btusb
+sudo dmesg | grep -i bluetooth | tail -40
+sudo pamac update
+wget https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/plain/mediatek/BT_RAM_CODE_MT7925_1_1_hdr.bin -O /tmp/BT_RAM_CODE_MT7925_1_1_hdr.bin
+wget https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/plain/mediatek/mt7925/BT_RAM_CODE_MT7925_1_1_hdr.bin -O /tmp/BT_RAM_CODE_MT7925_1_1_hdr.bin
+sudo cp /tmp/BT_RAM_CODE_MT7925_1_1_hdr.bin /lib/firmware/mediatek/BT_RAM_CODE_MT7925_1_1_hdr.bin && sudo modprobe -r btusb && sudo modprobe btusb
+sudo hciconfig hci0 up
+lspci -nn | grep -i network; lsusb
+lspci -v -s 0f:00.0
+lsusb -v -d 0489:e14f
+grep GRUB_CMDLINE_LINUX_DEFAULT /etc/default/grub
+sudo sed -i "s/GRUB_CMDLINE_LINUX_DEFAULT='\(.*\)'/GRUB_CMDLINE_LINUX_DEFAULT='\1 btusb.enable_autosuspend=n'" /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+code&
+cat /proc/cmdline
+bluetoothctl show
+mhwd -li && pacman -Qs nvidia
+mhwd -l
+cat ~/.local/share/xorg/Xorg.0.log | tail -40
+cat /var/log/Xorg.0.log | tail -40
+grep EE /var/log/Xorg.0.log | tail -20
+journalctl --user -b | grep -iE 'plasma|kwin|compositor|error|fail' | tail -40
+sudo mhwd -r pci video-hybrid-amd-nvidia-prime
+sudo mhwd -i pci video-hybrid-amd-nvidia-prime
+sudo mkinitcpio -P
+mhwd -li
+sudo mhwd -r pci video-linux
+sudo mhwd -r pci video-hybrid-amd-nvidia-prime && sudo mhwd -i pci video-hybrid-amd-nvidia-prime
+sudo update-grub
+cat /var/log/Xorg.0.log | grep -iE 'error|fail|nvidia|amd|dri' | tail -40
+cat /var/log/Xorg.0.log | grep -iE 'prime|offload|xrandr|provider' | tail -40
+cat /var/log/Xorg.0.log | grep -iEE 'fatal|segmentation|crash|hang|freeze|gpu|nvidia|amd|error|fail' | tail -40
+inxi -Gxxc0
+pacman -S --noconfirm xorg-xrandr
+sudo pacman -S --noconfirm xorg-xrandr
+xrandr --listproviders
+y
+xrandr --verbose
+xrandr --verbose | grep -A20 -i edid
+monitor-edid | grep -iE 'model|serial|name|manufacturer'
+... (history continued)
+-- END HISTORY --

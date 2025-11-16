@@ -1,0 +1,102 @@
+nohup: ignoring input
+2025/11/16 17:05:46 DEBUG : rclone: Version "v1.71.0" starting with parameters ["rclone" "lsd" "Gdrive:" "--log-level" "DEBUG"]
+2025/11/16 17:05:46 DEBUG : Creating backend with remote "Gdrive:"
+2025/11/16 17:05:46 DEBUG : Using config file from "/home/allaun/.config/rclone/rclone.conf"
+2025/11/16 17:05:47 DEBUG : Google drive root '': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:05:47 DEBUG : 6 go routines active
+2025/11/16 17:05:47 DEBUG : rclone: Version "v1.71.0" starting with parameters ["rclone" "move" "Gdrive:Documents" "Gdrive:Active/Documents" "--dry-run" "--log-level" "DEBUG"]
+2025/11/16 17:05:47 DEBUG : Creating backend with remote "Gdrive:Documents"
+2025/11/16 17:05:47 DEBUG : Using config file from "/home/allaun/.config/rclone/rclone.conf"
+2025/11/16 17:05:48 DEBUG : Google drive root 'Documents': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:05:48 DEBUG : Creating backend with remote "Gdrive:Active/Documents"
+2025/11/16 17:05:49 DEBUG : Google drive root 'Active/Documents': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:05:49 NOTICE: Google drive root 'Active/Documents': Skipped server-side directory move as --dry-run is set
+2025/11/16 17:05:49 NOTICE: 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.0s
+
+2025/11/16 17:05:49 DEBUG : 8 go routines active
+2025/11/16 17:05:49 DEBUG : rclone: Version "v1.71.0" starting with parameters ["rclone" "move" "Gdrive:Documents／General／" "Gdrive:Active/Documents" "--dry-run" "--log-level" "DEBUG"]
+2025/11/16 17:05:49 DEBUG : Creating backend with remote "Gdrive:Documents／General／"
+2025/11/16 17:05:49 DEBUG : Using config file from "/home/allaun/.config/rclone/rclone.conf"
+2025/11/16 17:05:49 DEBUG : Google drive root 'Documents／General／': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:05:50 DEBUG : Creating backend with remote "Gdrive:Active/Documents"
+2025/11/16 17:05:50 DEBUG : Google drive root 'Active/Documents': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:05:51 NOTICE: Google drive root 'Active/Documents': Skipped server-side directory move as --dry-run is set
+2025/11/16 17:05:51 NOTICE: 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.0s
+
+2025/11/16 17:05:51 DEBUG : 8 go routines active
+2025/11/16 17:05:51 DEBUG : rclone: Version "v1.71.0" starting with parameters ["rclone" "move" "Gdrive:Personal" "Gdrive:Active/Personal" "--dry-run" "--log-level" "DEBUG"]
+2025/11/16 17:05:51 DEBUG : Creating backend with remote "Gdrive:Personal"
+2025/11/16 17:05:51 DEBUG : Using config file from "/home/allaun/.config/rclone/rclone.conf"
+2025/11/16 17:05:51 DEBUG : Google drive root 'Personal': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:05:51 DEBUG : Creating backend with remote "Gdrive:Active/Personal"
+2025/11/16 17:05:52 DEBUG : Google drive root 'Active/Personal': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:05:52 NOTICE: Google drive root 'Active/Personal': Skipped server-side directory move as --dry-run is set
+2025/11/16 17:05:52 NOTICE: 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.0s
+
+2025/11/16 17:05:52 DEBUG : 8 go routines active
+2025/11/16 17:05:52 DEBUG : rclone: Version "v1.71.0" starting with parameters ["rclone" "move" "Gdrive:Backups" "Gdrive:Archives/Backups" "--dry-run" "--log-level" "DEBUG"]
+2025/11/16 17:05:52 DEBUG : Creating backend with remote "Gdrive:Backups"
+2025/11/16 17:05:52 DEBUG : Using config file from "/home/allaun/.config/rclone/rclone.conf"
+2025/11/16 17:05:53 DEBUG : Google drive root 'Backups': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:05:53 DEBUG : Creating backend with remote "Gdrive:Archives/Backups"
+2025/11/16 17:05:53 DEBUG : Google drive root 'Archives/Backups': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:05:54 NOTICE: Google drive root 'Archives/Backups': Skipped server-side directory move as --dry-run is set
+2025/11/16 17:05:54 NOTICE: 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.0s
+
+2025/11/16 17:05:54 DEBUG : 8 go routines active
+2025/11/16 17:05:54 DEBUG : rclone: Version "v1.71.0" starting with parameters ["rclone" "move" "Gdrive:Archives／Backups／" "Gdrive:Archives/Backups" "--dry-run" "--log-level" "DEBUG"]
+2025/11/16 17:05:54 DEBUG : Creating backend with remote "Gdrive:Archives／Backups／"
+2025/11/16 17:05:54 DEBUG : Using config file from "/home/allaun/.config/rclone/rclone.conf"
+2025/11/16 17:05:54 DEBUG : Google drive root 'Archives／Backups／': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:05:55 DEBUG : Creating backend with remote "Gdrive:Archives/Backups"
+2025/11/16 17:05:55 DEBUG : Google drive root 'Archives/Backups': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:05:56 NOTICE: Google drive root 'Archives/Backups': Skipped server-side directory move as --dry-run is set
+2025/11/16 17:05:56 NOTICE: 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.0s
+
+2025/11/16 17:05:56 DEBUG : 8 go routines active
+2025/11/16 17:05:56 DEBUG : rclone: Version "v1.71.0" starting with parameters ["rclone" "move" "Gdrive:HelloFax" "Gdrive:Inbox" "--dry-run" "--log-level" "DEBUG"]
+2025/11/16 17:05:56 DEBUG : Creating backend with remote "Gdrive:HelloFax"
+2025/11/16 17:05:56 DEBUG : Using config file from "/home/allaun/.config/rclone/rclone.conf"
+2025/11/16 17:05:56 DEBUG : Google drive root 'HelloFax': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:05:57 DEBUG : Creating backend with remote "Gdrive:Inbox"
+2025/11/16 17:05:57 DEBUG : Google drive root 'Inbox': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:05:58 NOTICE: Google drive root 'Inbox': Skipped server-side directory move as --dry-run is set
+2025/11/16 17:05:58 NOTICE: 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.0s
+
+2025/11/16 17:05:58 DEBUG : 8 go routines active
+2025/11/16 17:05:58 DEBUG : rclone: Version "v1.71.0" starting with parameters ["rclone" "move" "Gdrive:Uncategorized／" "Gdrive:Inbox/Uncategorized-ToSort" "--dry-run" "--log-level" "DEBUG"]
+2025/11/16 17:05:58 DEBUG : Creating backend with remote "Gdrive:Uncategorized／"
+2025/11/16 17:05:58 DEBUG : Using config file from "/home/allaun/.config/rclone/rclone.conf"
+2025/11/16 17:05:58 DEBUG : Google drive root 'Uncategorized／': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:05:59 DEBUG : Creating backend with remote "Gdrive:Inbox/Uncategorized-ToSort"
+2025/11/16 17:05:59 DEBUG : Google drive root 'Inbox/Uncategorized-ToSort': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:06:00 NOTICE: Google drive root 'Inbox/Uncategorized-ToSort': Skipped server-side directory move as --dry-run is set
+2025/11/16 17:06:00 NOTICE: 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.0s
+
+2025/11/16 17:06:00 DEBUG : 8 go routines active
+2025/11/16 17:06:00 DEBUG : rclone: Version "v1.71.0" starting with parameters ["rclone" "purge" "Gdrive:Music-backup" "--dry-run" "--log-level" "DEBUG"]
+2025/11/16 17:06:00 DEBUG : Creating backend with remote "Gdrive:Music-backup"
+2025/11/16 17:06:00 DEBUG : Using config file from "/home/allaun/.config/rclone/rclone.conf"
+2025/11/16 17:06:01 DEBUG : Google drive root 'Music-backup': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:06:01 NOTICE: Google drive root 'Music-backup': Skipped purge directory as --dry-run is set
+2025/11/16 17:06:01 DEBUG : 6 go routines active
+2025/11/16 17:06:01 DEBUG : rclone: Version "v1.71.0" starting with parameters ["rclone" "purge" "Gdrive:Entertainment" "--dry-run" "--log-level" "DEBUG"]
+2025/11/16 17:06:01 DEBUG : Creating backend with remote "Gdrive:Entertainment"
+2025/11/16 17:06:01 DEBUG : Using config file from "/home/allaun/.config/rclone/rclone.conf"
+2025/11/16 17:06:02 DEBUG : Google drive root 'Entertainment': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:06:02 NOTICE: Google drive root 'Entertainment': Skipped purge directory as --dry-run is set
+2025/11/16 17:06:02 DEBUG : 6 go routines active

@@ -1,0 +1,200 @@
+/
+├── Documents
+│   ├── Creative Writing
+│   │   └── AI written
+│   │       ├── Sales-Bot 3000: Post-Apocalyptic Customer Service.docx
+│   │       └── The Divine Watchers.docx
+│   ├── Ebooks
+│   │   ├── Audiobook
+│   │   │   ├── Adrian Tchaikovsky's Shroud
+│   │   │   │   └── Adrian Tchaikovsky  - Shroud.m4b
+│   │   │   ├── Bobiverse by Dennis E. Taylor
+│   │   │   │   ├── Dennis E. Taylor - [Bobiverse 01 We Are Legion (We Are Bob) - 1].m4b
+│   │   │   │   ├── Dennis E. Taylor - [Bobiverse 02 For We Are Many - 2].m4b
+│   │   │   │   ├── Dennis E. Taylor - [Bobiverse 03 All These Worlds - 3].m4b
+│   │   │   │   ├── Dennis E. Taylor - [Bobiverse 04 Heaven's River - 4].m4b
+│   │   │   │   └── Dennis E. Taylor - [Bobiverse 05  Not Till We Are Lost- 5].m4b
+│   │   │   └── Wayward Galaxy by J. N. Chaney and Jason Anspach
+│   │   │       ├── Wayward Galaxy 04 - Wayward Galaxy 4.zip
+│   │   │       └── Wayward Galaxy 05 - Wayward Galaxy 5.zip
+│   │   ├── Comics ／ Graphic Novels ／ Manga
+│   │   │   ├── List of Manhwas with Categories and Such.. [Google Spreadsheet version].xlsx
+│   │   │   ├── Unzipped
+│   │   │   │   ├── Black Science Volume 1 - 9
+│   │   │   │   │   ├── Black Science v01 How To Fall Forever (2014) (Digital TPB) (Archangel Zone-Empire).cbr
+│   │   │   │   │   ├── Black Science v02 - Welcome, Nowhere (2015) (Digital) (Archangel Zone-Empire).cbr
+│   │   │   │   │   ├── Black Science v03 - Vanishing Point (2015) (Digital) (Zone-Empire).cbr
+│   │   │   │   │   ├── Black Science v04 - Godworld (2015) (Digital) (Zone-Empire).cbr
+│   │   │   │   │   ├── Black Science v05 - True Atonement (2016) (Digital) (Zone-Empire).cbr
+│   │   │   │   │   ├── Black Science v06 - Forbidden Realms and Hidden Truths (2017) (Digital) (Zone-Empire).cbr
+│   │   │   │   │   ├── Black Science v07 - Extinction is the Rule (2018) (Digital) (Zone-Empire).cbr
+│   │   │   │   │   ├── Black Science v08 - Later Than You Think (2018) (Digital) (Zone-Empire).cbr
+│   │   │   │   │   └── Black Science v09 - No Authority But Yourself (2019) (Digital) (DrDoom-Empire).cbz
+│   │   │   │   ├── Solo Leveling
+│   │   │   │   │   ├── Ch 000 Prologue.cbz
+│   │   │   │   │   ├── Ch 001.cbz
+│   │   │   │   │   ├── Ch 002.cbz
+│   │   │   │   │   ├── Ch 003.cbz
+│   │   │   │   │   ├── Ch 004.cbz
+│   │   │   │   │   ├── Ch 005.cbz
+│   │   │   │   │   ├── Ch 006.cbz
+│   │   │   │   │   ├── Ch 007.cbz
+│   │   │   │   │   ├── Ch 008.cbz
+│   │   │   │   │   ├── Ch 009.cbz
+│   │   │   │   │   ├── Ch 010.cbz
+│   │   │   │   │   ├── Ch 011.cbz
+│   │   │   │   │   ├── Ch 012.cbz
+│   │   │   │   │   ├── Ch 013.cbz
+│   │   │   │   │   ├── Ch 014.cbz
+│   │   │   │   │   ├── Ch 015.cbz
+│   │   │   │   │   ├── Ch 016.cbz
+│   │   │   │   │   ├── Ch 017.cbz
+│   │   │   │   │   ├── Ch 018.cbz
+│   │   │   │   │   ├── Ch 019.cbz
+│   │   │   │   │   ├── Ch 020.cbz
+│   │   │   │   │   ├── Ch 021.cbz
+│   │   │   │   │   ├── Ch 022.cbz
+│   │   │   │   │   ├── Ch 023.cbz
+│   │   │   │   │   ├── Ch 024.cbz
+│   │   │   │   │   ├── Ch 025.cbz
+│   │   │   │   │   ├── Ch 026.cbz
+│   │   │   │   │   ├── Ch 027.cbz
+│   │   │   │   │   ├── Ch 028.cbz
+│   │   │   │   │   ├── Ch 029.cbz
+│   │   │   │   │   ├── Ch 030.cbz
+│   │   │   │   │   ├── Ch 031.cbz
+│   │   │   │   │   ├── Ch 032.cbz
+│   │   │   │   │   ├── Ch 033.cbz
+│   │   │   │   │   ├── Ch 034.cbz
+│   │   │   │   │   ├── Ch 035.cbz
+│   │   │   │   │   ├── Ch 036.cbz
+│   │   │   │   │   ├── Ch 037.cbz
+│   │   │   │   │   ├── Ch 038.cbz
+│   │   │   │   │   ├── Ch 039.cbz
+│   │   │   │   │   ├── Ch 040.cbz
+│   │   │   │   │   ├── Ch 041.cbz
+│   │   │   │   │   ├── Ch 042.cbz
+│   │   │   │   │   ├── Ch 043.cbz
+│   │   │   │   │   ├── Ch 044.cbz
+│   │   │   │   │   ├── Ch 045.cbz
+│   │   │   │   │   ├── Ch 046.cbz
+│   │   │   │   │   ├── Ch 047.cbz
+│   │   │   │   │   ├── Ch 048.cbz
+│   │   │   │   │   ├── Ch 049.cbz
+│   │   │   │   │   ├── Ch 050.cbz
+│   │   │   │   │   ├── Ch 051.cbz
+│   │   │   │   │   ├── Ch 052.cbz
+│   │   │   │   │   ├── Ch 053.cbz
+│   │   │   │   │   ├── Ch 054.cbz
+│   │   │   │   │   ├── Ch 055.cbz
+│   │   │   │   │   ├── Ch 056.cbz
+│   │   │   │   │   ├── Ch 057.cbz
+│   │   │   │   │   ├── Ch 058.cbz
+│   │   │   │   │   ├── Ch 059.cbz
+│   │   │   │   │   ├── Ch 060.cbz
+│   │   │   │   │   ├── Ch 061.cbz
+│   │   │   │   │   ├── Ch 062.cbz
+│   │   │   │   │   ├── Ch 063.cbz
+│   │   │   │   │   ├── Ch 064.cbz
+│   │   │   │   │   ├── Ch 065.cbz
+│   │   │   │   │   ├── Ch 066.cbz
+│   │   │   │   │   ├── Ch 067.cbz
+│   │   │   │   │   ├── Ch 068.cbz
+│   │   │   │   │   ├── Ch 069.cbz
+│   │   │   │   │   ├── Ch 070.cbz
+│   │   │   │   │   ├── Ch 071.cbz
+│   │   │   │   │   ├── Ch 072.cbz
+│   │   │   │   │   ├── Ch 073.cbz
+│   │   │   │   │   ├── Ch 074.cbz
+│   │   │   │   │   ├── Ch 075.cbz
+│   │   │   │   │   ├── Ch 076.cbz
+│   │   │   │   │   ├── Ch 077.cbz
+│   │   │   │   │   ├── Ch 078.cbz
+│   │   │   │   │   ├── Ch 079.cbz
+│   │   │   │   │   ├── Ch 080.cbz
+│   │   │   │   │   ├── Ch 081.cbz
+│   │   │   │   │   ├── Ch 082.cbz
+│   │   │   │   │   ├── Ch 083.cbz
+│   │   │   │   │   ├── Ch 084.cbz
+│   │   │   │   │   ├── Ch 085.cbz
+│   │   │   │   │   ├── Ch 086.cbz
+│   │   │   │   │   ├── Ch 087.cbz
+│   │   │   │   │   ├── Ch 088.cbz
+│   │   │   │   │   ├── Ch 089.cbz
+│   │   │   │   │   ├── Ch 090.cbz
+│   │   │   │   │   ├── Ch 091.cbz
+│   │   │   │   │   ├── Ch 092.cbz
+│   │   │   │   │   ├── Ch 093.cbz
+│   │   │   │   │   ├── Ch 094.cbz
+│   │   │   │   │   ├── Ch 095.cbz
+│   │   │   │   │   ├── Ch 096.cbz
+│   │   │   │   │   ├── Ch 097.cbz
+│   │   │   │   │   ├── Ch 098.cbz
+│   │   │   │   │   ├── Ch 099.cbz
+│   │   │   │   │   ├── Ch 100.cbz
+│   │   │   │   │   ├── Ch 101.cbz
+│   │   │   │   │   ├── Ch 102.cbz
+│   │   │   │   │   ├── Ch 103.cbz
+│   │   │   │   │   ├── Ch 104.cbz
+│   │   │   │   │   ├── Ch 105.cbz
+│   │   │   │   │   ├── Ch 106.cbz
+│   │   │   │   │   ├── Ch 107.cbz
+│   │   │   │   │   ├── Ch 108.cbz
+│   │   │   │   │   ├── Ch 109.cbz
+│   │   │   │   │   ├── Ch 110.cbz
+│   │   │   │   │   ├── Ch 111.cbz
+│   │   │   │   │   ├── Ch 112.cbz
+│   │   │   │   │   ├── Ch 113.cbz
+│   │   │   │   │   ├── Ch 114.cbz
+│   │   │   │   │   ├── Ch 115.cbz
+│   │   │   │   │   ├── Ch 116.cbz
+│   │   │   │   │   ├── Ch 117.cbz
+│   │   │   │   │   ├── Ch 118.cbz
+│   │   │   │   │   ├── Ch 119.cbz
+│   │   │   │   │   ├── Ch 120.cbz
+│   │   │   │   │   ├── Ch 121.cbz
+│   │   │   │   │   ├── Ch 122.cbz
+│   │   │   │   │   ├── Ch 123.cbz
+│   │   │   │   │   ├── Ch 124.cbz
+│   │   │   │   │   ├── Ch 125.cbz
+│   │   │   │   │   ├── Ch 126.cbz
+│   │   │   │   │   ├── Ch 127.cbz
+│   │   │   │   │   ├── Ch 128.cbz
+│   │   │   │   │   ├── Ch 129.cbz
+│   │   │   │   │   ├── Ch 130.cbz
+│   │   │   │   │   ├── Ch 131.cbz
+│   │   │   │   │   ├── Ch 132.cbz
+│   │   │   │   │   ├── Ch 133.cbz
+│   │   │   │   │   ├── Ch 134.cbz
+│   │   │   │   │   ├── Ch 135.cbz
+│   │   │   │   │   ├── Ch 136.cbz
+│   │   │   │   │   ├── Ch 137.cbz
+│   │   │   │   │   ├── Ch 138.cbz
+│   │   │   │   │   ├── Ch 139.cbz
+│   │   │   │   │   ├── Ch 140.cbz
+│   │   │   │   │   ├── Ch 141.cbz
+│   │   │   │   │   ├── Ch 142.cbz
+│   │   │   │   │   ├── Ch 143.cbz
+│   │   │   │   │   ├── Ch 144.cbz
+│   │   │   │   │   ├── Ch 145.cbz
+│   │   │   │   │   ├── Ch 146.cbz
+│   │   │   │   │   ├── Ch 147.cbz
+│   │   │   │   │   ├── Ch 148.cbz
+│   │   │   │   │   ├── Ch 149.cbz
+│   │   │   │   │   ├── Ch 150.cbz
+│   │   │   │   │   ├── Ch 151.cbz
+│   │   │   │   │   ├── Ch 152.cbz
+│   │   │   │   │   ├── Ch 153.cbz
+│   │   │   │   │   ├── Ch 154.cbz
+│   │   │   │   │   ├── Ch 155.cbz
+│   │   │   │   │   ├── Ch 156.cbz
+│   │   │   │   │   ├── Ch 157.cbz
+│   │   │   │   │   ├── Ch 158.cbz
+│   │   │   │   │   ├── Ch 159.cbz
+│   │   │   │   │   ├── Ch 160.cbz
+│   │   │   │   │   ├── Ch 161.cbz
+│   │   │   │   │   ├── Ch 162.cbz
+│   │   │   │   │   ├── Ch 163.cbz
+│   │   │   │   │   ├── Ch 164.cbz
+│   │   │   │   │   ├── Ch 165.cbz
+│   │   │   │   │   ├── Ch 166.cbz

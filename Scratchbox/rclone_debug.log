@@ -1,0 +1,248 @@
+RCLONE DEBUG LOG - dry-run - Sun Nov 16 11:05:46 PM UTC 2025
+
+=== lsd Gdrive: (top-level) ===
+
+           0 2025-11-16 16:53:57        -1 Active
+           0 2025-11-16 16:54:07        -1 Archives
+           0 2025-10-22 22:39:00        -1 Archives／Backups／
+           0 2025-05-21 02:09:50        -1 Backups
+           0 2025-05-21 02:10:22        -1 Documents
+           0 2025-10-22 22:38:36        -1 Documents／General／
+           0 2025-09-02 17:01:22        -1 HelloFax
+           0 2025-11-16 16:54:15        -1 Inbox
+           0 2025-05-21 02:10:28        -1 Personal
+           0 2025-11-16 16:54:18        -1 System
+           0 2025-10-24 13:24:07        -1 fixed
+           0 2025-11-12 14:53:06        -1 test1
+
+=== COMMAND: rclone move Gdrive:Documents Gdrive:Active/Documents --dry-run --log-level DEBUG ===
+
+
+=== COMMAND: rclone move "Gdrive:Documents／General／" Gdrive:Active/Documents --dry-run --log-level DEBUG ===
+
+
+=== COMMAND: rclone move Gdrive:Personal Gdrive:Active/Personal --dry-run --log-level DEBUG ===
+
+
+=== COMMAND: rclone move Gdrive:Backups Gdrive:Archives/Backups --dry-run --log-level DEBUG ===
+
+
+=== COMMAND: rclone move "Gdrive:Archives／Backups／" Gdrive:Archives/Backups --dry-run --log-level DEBUG ===
+
+
+=== COMMAND: rclone move Gdrive:HelloFax Gdrive:Inbox --dry-run --log-level DEBUG ===
+
+
+=== COMMAND: rclone move "Gdrive:Uncategorized／" Gdrive:Inbox/Uncategorized-ToSort --dry-run --log-level DEBUG ===
+
+
+=== COMMAND: rclone purge Gdrive:Music-backup --dry-run --log-level DEBUG ===
+
+
+=== COMMAND: rclone purge Gdrive:Entertainment --dry-run --log-level DEBUG ===
+
+
+=== tree Gdrive:Active (preview) ===
+
+2025/11/16 17:06:02 DEBUG : rclone: Version "v1.71.0" starting with parameters ["rclone" "tree" "Gdrive:Active" "--log-level" "DEBUG"]
+2025/11/16 17:06:02 DEBUG : Creating backend with remote "Gdrive:Active"
+2025/11/16 17:06:02 DEBUG : Using config file from "/home/allaun/.config/rclone/rclone.conf"
+2025/11/16 17:06:03 DEBUG : Google drive root 'Active': 'root_folder_id = 0ACY2Wv2zWhGAUk9PVA' - save this in the config to speed up startup
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=, err=<nil>
+2025/11/16 17:06:06 DEBUG : ReadDir: dir=/
+2025/11/16 17:06:06 DEBUG : >ReadDir: names=[Documents Entertainment Music Personal], err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents, err=<nil>
+2025/11/16 17:06:06 DEBUG : ReadDir: dir=/Documents
+2025/11/16 17:06:06 DEBUG : >ReadDir: names=[Creative Writing Ebooks HTML Ideas Legal Non Specific Documents - Sort Later README.txt], err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Creative Writing"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Creative Writing, err=<nil>
+2025/11/16 17:06:06 DEBUG : ReadDir: dir=/Documents/Creative Writing
+2025/11/16 17:06:06 DEBUG : >ReadDir: names=[AI written], err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Creative Writing/AI written"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Creative Writing/AI written, err=<nil>
+2025/11/16 17:06:06 DEBUG : ReadDir: dir=/Documents/Creative Writing/AI written
+2025/11/16 17:06:06 DEBUG : >ReadDir: names=[Sales-Bot 3000: Post-Apocalyptic Customer Service.docx The Divine Watchers.docx], err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Creative Writing/AI written/Sales-Bot 3000: Post-Apocalyptic Customer Service.docx"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Creative Writing/AI written/Sales-Bot 3000: Post-Apocalyptic Customer Service.docx, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Creative Writing/AI written/The Divine Watchers.docx"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Creative Writing/AI written/The Divine Watchers.docx, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks, err=<nil>
+2025/11/16 17:06:06 DEBUG : ReadDir: dir=/Documents/Ebooks
+2025/11/16 17:06:06 DEBUG : >ReadDir: names=[Audiobook Comics ／ Graphic Novels ／ Manga Epub Programming related], err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Audiobook"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Audiobook, err=<nil>
+2025/11/16 17:06:06 DEBUG : ReadDir: dir=/Documents/Ebooks/Audiobook
+2025/11/16 17:06:06 DEBUG : >ReadDir: names=[Adrian Tchaikovsky's Shroud Bobiverse by Dennis E. Taylor Wayward Galaxy by J. N. Chaney and Jason Anspach], err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Audiobook/Adrian Tchaikovsky's Shroud"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Audiobook/Adrian Tchaikovsky's Shroud, err=<nil>
+2025/11/16 17:06:06 DEBUG : ReadDir: dir=/Documents/Ebooks/Audiobook/Adrian Tchaikovsky's Shroud
+2025/11/16 17:06:06 DEBUG : >ReadDir: names=[Adrian Tchaikovsky  - Shroud.m4b], err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Audiobook/Adrian Tchaikovsky's Shroud/Adrian Tchaikovsky  - Shroud.m4b"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Audiobook/Adrian Tchaikovsky's Shroud/Adrian Tchaikovsky  - Shroud.m4b, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Audiobook/Bobiverse by Dennis E. Taylor"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Audiobook/Bobiverse by Dennis E. Taylor, err=<nil>
+2025/11/16 17:06:06 DEBUG : ReadDir: dir=/Documents/Ebooks/Audiobook/Bobiverse by Dennis E. Taylor
+2025/11/16 17:06:06 DEBUG : >ReadDir: names=[Dennis E. Taylor - [Bobiverse 01 We Are Legion (We Are Bob) - 1].m4b Dennis E. Taylor - [Bobiverse 02 For We Are Many - 2].m4b Dennis E. Taylor - [Bobiverse 03 All These Worlds - 3].m4b Dennis E. Taylor - [Bobiverse 04 Heaven's River - 4].m4b Dennis E. Taylor - [Bobiverse 05  Not Till We Are Lost- 5].m4b], err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Audiobook/Bobiverse by Dennis E. Taylor/Dennis E. Taylor - [Bobiverse 01 We Are Legion (We Are Bob) - 1].m4b"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Audiobook/Bobiverse by Dennis E. Taylor/Dennis E. Taylor - [Bobiverse 01 We Are Legion (We Are Bob) - 1].m4b, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Audiobook/Bobiverse by Dennis E. Taylor/Dennis E. Taylor - [Bobiverse 02 For We Are Many - 2].m4b"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Audiobook/Bobiverse by Dennis E. Taylor/Dennis E. Taylor - [Bobiverse 02 For We Are Many - 2].m4b, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Audiobook/Bobiverse by Dennis E. Taylor/Dennis E. Taylor - [Bobiverse 03 All These Worlds - 3].m4b"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Audiobook/Bobiverse by Dennis E. Taylor/Dennis E. Taylor - [Bobiverse 03 All These Worlds - 3].m4b, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Audiobook/Bobiverse by Dennis E. Taylor/Dennis E. Taylor - [Bobiverse 04 Heaven's River - 4].m4b"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Audiobook/Bobiverse by Dennis E. Taylor/Dennis E. Taylor - [Bobiverse 04 Heaven's River - 4].m4b, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Audiobook/Bobiverse by Dennis E. Taylor/Dennis E. Taylor - [Bobiverse 05  Not Till We Are Lost- 5].m4b"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Audiobook/Bobiverse by Dennis E. Taylor/Dennis E. Taylor - [Bobiverse 05  Not Till We Are Lost- 5].m4b, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Audiobook/Wayward Galaxy by J. N. Chaney and Jason Anspach"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Audiobook/Wayward Galaxy by J. N. Chaney and Jason Anspach, err=<nil>
+2025/11/16 17:06:06 DEBUG : ReadDir: dir=/Documents/Ebooks/Audiobook/Wayward Galaxy by J. N. Chaney and Jason Anspach
+2025/11/16 17:06:06 DEBUG : >ReadDir: names=[Wayward Galaxy 04 - Wayward Galaxy 4.zip Wayward Galaxy 05 - Wayward Galaxy 5.zip], err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Audiobook/Wayward Galaxy by J. N. Chaney and Jason Anspach/Wayward Galaxy 04 - Wayward Galaxy 4.zip"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Audiobook/Wayward Galaxy by J. N. Chaney and Jason Anspach/Wayward Galaxy 04 - Wayward Galaxy 4.zip, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Audiobook/Wayward Galaxy by J. N. Chaney and Jason Anspach/Wayward Galaxy 05 - Wayward Galaxy 5.zip"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Audiobook/Wayward Galaxy by J. N. Chaney and Jason Anspach/Wayward Galaxy 05 - Wayward Galaxy 5.zip, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga, err=<nil>
+2025/11/16 17:06:06 DEBUG : ReadDir: dir=/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga
+2025/11/16 17:06:06 DEBUG : >ReadDir: names=[List of Manhwas with Categories and Such.. [Google Spreadsheet version].xlsx Unzipped Zipped], err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/List of Manhwas with Categories and Such.. [Google Spreadsheet version].xlsx"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/List of Manhwas with Categories and Such.. [Google Spreadsheet version].xlsx, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped, err=<nil>
+2025/11/16 17:06:06 DEBUG : ReadDir: dir=/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped
+2025/11/16 17:06:06 DEBUG : >ReadDir: names=[Black Science Volume 1 - 9 Solo Leveling Solo Leveling Ragnarok (Sequel) The Greatest Estate Planner], err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9, err=<nil>
+2025/11/16 17:06:06 DEBUG : ReadDir: dir=/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9
+2025/11/16 17:06:06 DEBUG : >ReadDir: names=[Black Science v01 How To Fall Forever (2014) (Digital TPB) (Archangel Zone-Empire).cbr Black Science v02 - Welcome, Nowhere (2015) (Digital) (Archangel Zone-Empire).cbr Black Science v03 - Vanishing Point (2015) (Digital) (Zone-Empire).cbr Black Science v04 - Godworld (2015) (Digital) (Zone-Empire).cbr Black Science v05 - True Atonement (2016) (Digital) (Zone-Empire).cbr Black Science v06 - Forbidden Realms and Hidden Truths (2017) (Digital) (Zone-Empire).cbr Black Science v07 - Extinction is the Rule (2018) (Digital) (Zone-Empire).cbr Black Science v08 - Later Than You Think (2018) (Digital) (Zone-Empire).cbr Black Science v09 - No Authority But Yourself (2019) (Digital) (DrDoom-Empire).cbz], err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v01 How To Fall Forever (2014) (Digital TPB) (Archangel Zone-Empire).cbr"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v01 How To Fall Forever (2014) (Digital TPB) (Archangel Zone-Empire).cbr, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v02 - Welcome, Nowhere (2015) (Digital) (Archangel Zone-Empire).cbr"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v02 - Welcome, Nowhere (2015) (Digital) (Archangel Zone-Empire).cbr, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v03 - Vanishing Point (2015) (Digital) (Zone-Empire).cbr"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v03 - Vanishing Point (2015) (Digital) (Zone-Empire).cbr, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v04 - Godworld (2015) (Digital) (Zone-Empire).cbr"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v04 - Godworld (2015) (Digital) (Zone-Empire).cbr, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v05 - True Atonement (2016) (Digital) (Zone-Empire).cbr"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v05 - True Atonement (2016) (Digital) (Zone-Empire).cbr, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v06 - Forbidden Realms and Hidden Truths (2017) (Digital) (Zone-Empire).cbr"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v06 - Forbidden Realms and Hidden Truths (2017) (Digital) (Zone-Empire).cbr, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v07 - Extinction is the Rule (2018) (Digital) (Zone-Empire).cbr"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v07 - Extinction is the Rule (2018) (Digital) (Zone-Empire).cbr, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v08 - Later Than You Think (2018) (Digital) (Zone-Empire).cbr"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v08 - Later Than You Think (2018) (Digital) (Zone-Empire).cbr, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v09 - No Authority But Yourself (2019) (Digital) (DrDoom-Empire).cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Black Science Volume 1 - 9/Black Science v09 - No Authority But Yourself (2019) (Digital) (DrDoom-Empire).cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling, err=<nil>
+2025/11/16 17:06:06 DEBUG : ReadDir: dir=/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling
+2025/11/16 17:06:06 DEBUG : >ReadDir: names=[Ch 000 Prologue.cbz Ch 001.cbz Ch 002.cbz Ch 003.cbz Ch 004.cbz Ch 005.cbz Ch 006.cbz Ch 007.cbz Ch 008.cbz Ch 009.cbz Ch 010.cbz Ch 011.cbz Ch 012.cbz Ch 013.cbz Ch 014.cbz Ch 015.cbz Ch 016.cbz Ch 017.cbz Ch 018.cbz Ch 019.cbz Ch 020.cbz Ch 021.cbz Ch 022.cbz Ch 023.cbz Ch 024.cbz Ch 025.cbz Ch 026.cbz Ch 027.cbz Ch 028.cbz Ch 029.cbz Ch 030.cbz Ch 031.cbz Ch 032.cbz Ch 033.cbz Ch 034.cbz Ch 035.cbz Ch 036.cbz Ch 037.cbz Ch 038.cbz Ch 039.cbz Ch 040.cbz Ch 041.cbz Ch 042.cbz Ch 043.cbz Ch 044.cbz Ch 045.cbz Ch 046.cbz Ch 047.cbz Ch 048.cbz Ch 049.cbz Ch 050.cbz Ch 051.cbz Ch 052.cbz Ch 053.cbz Ch 054.cbz Ch 055.cbz Ch 056.cbz Ch 057.cbz Ch 058.cbz Ch 059.cbz Ch 060.cbz Ch 061.cbz Ch 062.cbz Ch 063.cbz Ch 064.cbz Ch 065.cbz Ch 066.cbz Ch 067.cbz Ch 068.cbz Ch 069.cbz Ch 070.cbz Ch 071.cbz Ch 072.cbz Ch 073.cbz Ch 074.cbz Ch 075.cbz Ch 076.cbz Ch 077.cbz Ch 078.cbz Ch 079.cbz Ch 080.cbz Ch 081.cbz Ch 082.cbz Ch 083.cbz Ch 084.cbz Ch 085.cbz Ch 086.cbz Ch 087.cbz Ch 088.cbz Ch 089.cbz Ch 090.cbz Ch 091.cbz Ch 092.cbz Ch 093.cbz Ch 094.cbz Ch 095.cbz Ch 096.cbz Ch 097.cbz Ch 098.cbz Ch 099.cbz Ch 100.cbz Ch 101.cbz Ch 102.cbz Ch 103.cbz Ch 104.cbz Ch 105.cbz Ch 106.cbz Ch 107.cbz Ch 108.cbz Ch 109.cbz Ch 110.cbz Ch 111.cbz Ch 112.cbz Ch 113.cbz Ch 114.cbz Ch 115.cbz Ch 116.cbz Ch 117.cbz Ch 118.cbz Ch 119.cbz Ch 120.cbz Ch 121.cbz Ch 122.cbz Ch 123.cbz Ch 124.cbz Ch 125.cbz Ch 126.cbz Ch 127.cbz Ch 128.cbz Ch 129.cbz Ch 130.cbz Ch 131.cbz Ch 132.cbz Ch 133.cbz Ch 134.cbz Ch 135.cbz Ch 136.cbz Ch 137.cbz Ch 138.cbz Ch 139.cbz Ch 140.cbz Ch 141.cbz Ch 142.cbz Ch 143.cbz Ch 144.cbz Ch 145.cbz Ch 146.cbz Ch 147.cbz Ch 148.cbz Ch 149.cbz Ch 150.cbz Ch 151.cbz Ch 152.cbz Ch 153.cbz Ch 154.cbz Ch 155.cbz Ch 156.cbz Ch 157.cbz Ch 158.cbz Ch 159.cbz Ch 160.cbz Ch 161.cbz Ch 162.cbz Ch 163.cbz Ch 164.cbz Ch 165.cbz Ch 166.cbz Ch 167.cbz Ch 168.cbz Ch 169.cbz Ch 170.cbz Ch 171.cbz Ch 172.cbz Ch 173.cbz Ch 174.cbz Ch 175.cbz Ch 176.cbz Ch 177.cbz Ch 178.cbz Ch 179.cbz Ch 180 - Side Story 1.cbz Ch 181 - Side Story 2.cbz Ch 182 - Side Story 3.cbz Ch 183 - Side Story 4.cbz Ch 184 - Side Story 5.cbz Ch 185 - Side Story 6.cbz Ch 186 - Side Story 7.cbz Ch 187 - Side Story 8.cbz Ch 188 - Side Story 9.cbz Ch 189 - Side Story 10.cbz Ch 190 - Side Story 11.cbz Ch 191 - Side Story 12.cbz Ch 192 - Side Story 13.cbz Ch 193 - Side Story 14.cbz Ch 194 - Side Story 15.cbz Ch 195 - Side Story 16.cbz Ch 196 - Side Story 17.cbz Ch 197 - Side Story 18.cbz Ch 198 - Side Story 19.cbz Ch 199 - Side Story 20.cbz Ch 200 - Side Story 21.cbz Ch 201 - Side Story 22.cbz], err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 000 Prologue.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 000 Prologue.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 001.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 001.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 002.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 002.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 003.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 003.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 004.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 004.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 005.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 005.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 006.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 006.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 007.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 007.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 008.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 008.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 009.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 009.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 010.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 010.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 011.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 011.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 012.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 012.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 013.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 013.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 014.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 014.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 015.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 015.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 016.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 016.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 017.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 017.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 018.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 018.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 019.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 019.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 020.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 020.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 021.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 021.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 022.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 022.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 023.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 023.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 024.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 024.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 025.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 025.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 026.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 026.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 027.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 027.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 028.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 028.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 029.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 029.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 030.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 030.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 031.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 031.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 032.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 032.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 033.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 033.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 034.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 034.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 035.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 035.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 036.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 036.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 037.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 037.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 038.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 038.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 039.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 039.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 040.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 040.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 041.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 041.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 042.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 042.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 043.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 043.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 044.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 044.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 045.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 045.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 046.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 046.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 047.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 047.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 048.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 048.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 049.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 049.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 050.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 050.cbz, err=<nil>
+2025/11/16 17:06:06 DEBUG : Stat: filePath="/Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 051.cbz"
+2025/11/16 17:06:06 DEBUG : >Stat: fi=Documents/Ebooks/Comics ／ Graphic Novels ／ Manga/Unzipped/Solo Leveling/Ch 051.cbz, err=<nil>
+
+RCLONE DRY-RUN COMPLETE - Sun Nov 16 11:06:06 PM UTC 2025
